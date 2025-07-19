@@ -1,3 +1,14 @@
 Bootstrap l'essentiel du framework web le plus populaire
 01 Introduction
-    01.01
+    01.01 Introduction 
+    01.02 Votre PDF pour suivre au mieux la formation
+    01.03 Nos 
+    01.04 La documentation offichielle de Bootstrap 
+    01.05 Qu'est ce que Bootstrap
+    01.06 Pourquoi Bootstrap plutôt qu'un autre
+02 Instation de bootstrap
+    02.01 Instation via un CDN
+    02.02 Téléchargement et hébergement local
+    02.03 Via NPM ou Yam
+03 Comprendre le principe des grilles
+    03.01 Le principe du système de Grilles
