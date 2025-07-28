@@ -12,3 +12,4 @@ Bootstrap l'essentiel du framework web le plus populaire
     02.03 Via NPM ou Yam
 03 Comprendre le principe des grilles
     03.01 Le principe du système de Grilles
+    03.02 Les points de rupture (breakpoints)
