@@ -1,0 +1,18 @@
+:root{
+    --bs-primary: #EC4343;
+    --bs-box-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,0.75);
+    --bs-border-radious: 2rem;
+}
+
+.text-primary{
+    color: var(--bs-primary) !important;
+}
+
+.text-center{
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.rounded{
+    border-radius: var(--bs-border-radious) !important;
+}

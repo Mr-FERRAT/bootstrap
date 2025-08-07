@@ -1,0 +1,25 @@
+/* balises html */
+body{
+    background-color: darkslategrey;
+    margin: 24px;
+}
+
+/* ombres */
+.shadow-custom{
+    box-shadow: 0 0.2rem 0.4rem rgba(124, 255, 255, 0.4);
+}
+
+/* style de texte */
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif';
+    font-size: 1.5rem;
+}
+
+.text-alternative{
+    color: lightcoral;
+}
+
+
+
+
+
