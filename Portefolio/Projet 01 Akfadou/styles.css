@@ -14,10 +14,22 @@
 
 .img-fixed{
     height: 300px;
+    width: 100%;
     object-fit: cover;
 }
 
 .img-activities {
     height: 250px;
     object-fit: cover;
+}
+
+.img-fb{
+    background-image: url('assets/logo/econFbOff.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-fb:hover{
+    background-image: url('assets/logo/iconFbOn.jpg');
+    background-size: cover;
+    background-position: center;
 }
