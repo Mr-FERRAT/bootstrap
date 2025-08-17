@@ -23,13 +23,45 @@
     object-fit: cover;
 }
 
-.img-fb{
-    background-image: url('assets/logo/econFbOff.jpg');
-    background-size: cover;
+/* images logo*/
+.img-fb {
+    background-image: url("assets/logo/econFbOff.jpg");
+    background-size:cover; 
     background-position: center;
+    width: 80px;
+    height: 80px;
 }
+
 .img-fb:hover{
     background-image: url('assets/logo/iconFbOn.jpg');
-    background-size: cover;
+}
+
+.img-instagram {
+    background-image: url("assets/logo/econInstaOff.jpg");
+    background-size:cover; 
     background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+
+}
+
+.img-instagram:hover{
+    /* background-image: url('assets/logo/iconFbOn.jpg'); */
+}
+
+.img-tiktok {
+    background-image: url("assets/logo/econInstaOff.jpg");
+    background-size:cover; 
+    background-position: center;
+    width: 80px;
+    height: 80px;
+}
+
+.img-tiktok:hover{
+    /* background-image: url('assets/logo/iconFbOn.jpg'); */
+}
+
+.a_img-instagram ,.a_img-tiktok{
+    cursor:default;
 }
