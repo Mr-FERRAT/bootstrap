@@ -12,3 +12,19 @@ function activateBtn(){
         btn.textContent = "Je ne suis pas actif";
     }
 }
+
+window.addEventListener("DOMContentLoaded",function(){
+    this.document.getElementById("my-form").addEventListener("submit",function(e){
+        e.preventDefault();
+        const mail= document.getElementById("email");
+        const emailValue = mail.value;
+        if (emailValue.lenght <= 0) {
+            mail.classList.remove("is-valid");
+            mail.classList.add("is-invalid");
+        } 
+        else {
+            mail.classList.remove("is-invalid");
+            mail.classList.add("is-valid");
+        }
+    })
+});
