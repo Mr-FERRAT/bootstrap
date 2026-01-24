@@ -14,3 +14,9 @@ header img{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.title {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #ff6347
+}
