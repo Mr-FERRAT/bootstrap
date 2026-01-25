@@ -29,3 +29,13 @@ header img{
 .logo {
     height: 12vh;
 }
+.gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 15vh;
+}
+
+.gallery:hover{
+    scale:0.9;
+}
