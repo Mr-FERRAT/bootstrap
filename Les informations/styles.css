@@ -5,3 +5,7 @@
 .popover{
     box-shadow: 0.66rem 0.2rem 0.5rem darkgrey;
 }
+
+.tooltip-inner {
+    background-color: lightblue;
+}
