@@ -44,3 +44,19 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.contact{
+    background-image: url(assets/plane.jpg);
+    padding: 10vh 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.card:hover{
+    scale: 1.05;
+}

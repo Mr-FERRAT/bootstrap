@@ -6,3 +6,6 @@ const finalList = toastList.map(function(element) {
 finalList.forEach(element => {
     element.show();
 })
+
+const popoverTrigger = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTrigger].map(element => new bootstrap.Popover(element));

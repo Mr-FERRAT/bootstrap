@@ -63,7 +63,7 @@
                     <p class="card-text flex-grow-1">La ville lumière, célèbre pour ses monuments historiques.</p>
                 </div>
                 <div class="card-footer">
-                    <button type="button" class="btn btn-light">Plus d'infos</button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="popover" title="Paris" data-bs-content="Obtenir plus d'infos">Plus d'infos</button>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                     <p class="card-text flex-grow-1">Des plages paradisiaques et une culture riche.</p>
                 </div>
                 <div class="card-footer">
-                    <button type="button" class="btn btn-light">Plus d'infos</button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="popover" title="Bali" data-bs-content="Obtenir plus d'infos">Plus d'infos</button>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
                     <p class="card-text flex-grow-1">La ville qui ne dort jamais, pleine d'énergie et de diversité.</p>
                 </div>
                 <div class="card-footer">
-                    <button type="button" class="btn btn-light">Plus d'infos</button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="popover" title="New York city" data-bs-content="Obtenir plus d'infos">Plus d'infos</button>
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
                     <p class="card-text flex-grow-1">Explorez l'Opéra de Sydney et les palages magnifiques.</p>
                 </div>
                 <div class="card-footer">
-                    <button type="button" class="btn btn-light">Plus d'infos</button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="popover" title="Sidney" data-bs-content="Obtenir plus d'infos">Plus d'infos</button>
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
                     <p class="card-text flex-grow-1">Une métropole moderne avec des traditions anciennes.</p>
                 </div>
                 <div class="card-footer">
-                    <button type="button" class="btn btn-light">Plus d'infos</button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="popover" title="Tokyo" data-bs-content="Obtenir plus d'infos">Plus d'infos</button>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
                     <p class="card-text flex-grow-1">Célébre pour sse plages et son carnaval coloré.</p>
                 </div>
                 <div class="card-footer">
-                    <button type="button" class="btn btn-light">Plus d'infos</button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="popover" title="Rio" data-bs-content="Obtenir plus d'infos">Plus d'infos</button>
                 </div>
             </div>
         </div>
@@ -153,9 +153,42 @@
     </div>
     
     <!-- About -->
+
+    <div class="container my-5">
+        <h2>A propos</h2>
+        <p class="col-md-8 offset-md-2 text-center">
+            Nous sommes passionnés par les voyages et l'avanture. Notre maisson est de vous faire découvrir le monde de manière unique et enrichissent.
+        </p>
+    </div>
+    
     <!-- contact -->
+
+    <div class="container-fluid contact p-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 card border-0 shadow">
+                <h2>Contact</h2>
+                <form action="" class="mx-3">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nom</label>
+                        <input type="text" id="name" class="form-control" placeholder="Entrez votre nom">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Adress Mail</label>
+                        <input type="email" id="email" class="form-control" placeholder="Entrez votre Adress Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <input name="message" id="message" placeholder="Votre Message" rows="3" class="form-control">
+                    </div>
+                    <p class="form-text text-center">Nous n'aimons pas les spams, nous ne vous enverrons pas d'email promotionnels quotidiennement.</p>
+                    <button type="submit" class="btn btn-success mb-4">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
     <!-- footer -->
-     <footer class="bg-dark text-white text-centere py-2">
+     <footer class="bg-dark text-white text-center py-2">
         <p>
             &copy;2026 Ferrat mawloud tous droits réservés
         </p>
