@@ -26,3 +26,21 @@
     background-color: rgba(125, 125, 125, 0.9);
     box-shadow: 0rem 0.2rem 0.5rem rgb(25 , 25, 25);
 }
+
+.description:hover{
+    scale: 1.1;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.download-section{
+    background-image: url(assets/guide.jpg);
+    background-position: center;
+    height: 33vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
