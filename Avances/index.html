@@ -10,9 +10,32 @@
 <body>
     
     <header>
-        <nav class="navbar bg-dark navbar-dark">
+        <!-- Navbar -->
+        <nav class="navbar bg-dark navbar-dark navbar-expand-lg fixed-top">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand"><img src="assets/icons8-add-bookmark-48.png" alt="Accueil" class="logo"> Accueil</a>
+                <!-- Navbar brand -->
+                <a href="#" class="navbar-brand"><img src="assets/icons8-add-bookmark-48.png" alt="Accueil" class="logo pe-2"> logo</a>
+                <!-- bouton collapse -->
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toogle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <!-- contenu du collapse -->
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#accueil" class="nav-link active">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link disabled">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#real" class="nav-link">Réalisations</a>
+                        </li>                      
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                  </div>
             </div>
         </nav>
     </header>
@@ -20,6 +43,12 @@
     <section class="container">
         <h1>Les éléments avancés</h1>
     </section>
+
+    <section class="container my-container" id="accueil">Accueil</section>
+    <section class="container my-container" id="about">A propos</section>
+    <section class="container my-container" id="real">Réalisations</section>
+    <section class="container my-container" id="contact">Contact</section>
+
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="app.script.js"></script>

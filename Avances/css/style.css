@@ -1,3 +1,13 @@
 .logo{
     height: 42px;
 }
+
+.my-container{
+    height: 75vh;
+    margin-top: 24px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
