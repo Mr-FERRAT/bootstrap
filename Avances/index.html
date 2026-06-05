@@ -34,7 +34,8 @@
                         <li class="nav-item">
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- Pour grande page -->
+                        <li class="nav-item dropdown d-none d-lg-block">
                             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mon dropdown</a>
                             <ul class="dropdown-menu bg-dark">
                                 <li ><a class="dropdown-item text-secondary" href="#">Element 1</a></li>
@@ -44,16 +45,102 @@
                                 <li ><a class="dropdown-item text-secondary" href="#">Element 3</a></li>
                             </ul>
                         </li>
+                        <!-- Pour mobile -->
+                         <div class="d-lg-none">
+                            <p class="text-success">Portfolio</p>
+                            <ul class=" bg-dark">
+                                <li class="nav-item"><a class="nav-link text-secondary" href="#">Element 1</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li class="nav-item"><a class="nav-link text-secondary" href="#">Element 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li class="nav-item"><a class="nav-link text-secondary" href="#">Element 3</a></li>
+                            </ul>
+                         </div>
                     </ul>
+
+                    <button class="btn btn-outline-danger m-2">button</button>
+                    
+                    <form action="" role="search" class="d-flex align-items-center">
+                        <input class="form-control me-1" type="search" placeholder="Recherche " aria-label="search">
+                        <button class="btn btn-success">OK</button>
+                    </form>
+                    
                   </div>
             </div>
         </nav>
     </header>
 
-    <section class="container">
+    <section class="container top-content">
         <h1>Les éléments avancés</h1>
     </section>
 
+    <section class="container">
+        <!-- Définition de la table -->
+        <ul class="nav nav-tabs" id="my-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab-1" data-bs-toggle="tab" data-bs-target="#1" type="button" tole="tab" aria-controls="1" aria-selected="true">One</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-2" data-bs-toggle="tab" data-bs-target="#2" type="button" tole="tab" aria-controls="2" aria-selected="false">Two</button>
+            </li>
+           <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-3" data-bs-toggle="tab" data-bs-target="#3" type="button" tole="tab" aria-controls="3" aria-selected="false">Three</button>
+            </li>
+        </ul>
+
+        <!-- Contenu de la tab -->
+
+        <div class="tab-content" id="my-tab-content">
+            <div class="tab-pane fade show active" id="1" role="tabpanel" aria-labelledby="1">
+                <h1>Contenu du 1</h1>
+            </div>
+            <div class="tab-pane fade" id="2" role="tabpanel" aria-labelledby="2">
+                <div class="card">
+                    <img src="assets/icons8-add-bookmark-48.png" alt="logo" class="img-card-top">
+                    <div class="card-content">
+                        <h4 class="card-title">
+                            Ma carte du contenu 2
+                        </h4>
+                        <p class="cart-text">Texte de mon contenu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="3" role="tabpanel" aria-labelledby="3">
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6 p-4 alert alert-success">Colonne A</div>
+                    <div class="col-md-3 col-sm-6 p-4 alert alert-danger">Colonne B</div>
+                    <div class="col-md-3 col-sm-6 p-4 alert alert-warning">Colonne C</div>
+                    <div class="col-md-3 col-sm-6 p-4 alert alert-primary">Colonne D</div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="container">
+        <!-- Definition -->
+        <ul class="nav nav-pills" id="pills" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" id="pill-1-tab" data-bs-toggle="pill" data-bs-target="#pill-1" aria-selected="true" role="tab">Pill 1</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link " id="pill-2-tab" data-bs-toggle="pill" data-bs-target="#pill-2" aria-selected="false" role="tab">Pill 2</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link " id="pill-3-tab" data-bs-toggle="pill" data-bs-target="#pill-3" aria-selected="false" role="tab">Pill 3</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link " id="pill-4-tab" data-bs-toggle="pill" data-bs-target="#pill-4" aria-selected="false" role="tab">Pill 4</button>
+            </li>
+        </ul>
+        <!-- Contenu -->
+         <div class="tab-content" id="pill-content">
+            <div class="tab-pane show active" id="pill-1" role="tabpanel" aria-labelledby="pill-1-tab">Contenu de la pill 1</div>
+            <div class="tab-pane" id="pill-2" role="tabpanel" aria-labelledby="pill-2-tab">Contenu de la pill 2</div>
+            <div class="tab-pane" id="pill-3" role="tabpanel" aria-labelledby="pill-3-tab">Contenu de la pill 3</div>
+            <div class="tab-pane" id="pill-4" tole="tabpanel" aria-labelledby="pill-3-tab">Contenu de la pill 4</div>
+         </div>
+         
+    </section>
     <section class="container my-container" id="accueil">Accueil</section>
     <section class="container my-container" id="about">A propos</section>
     <section class="container my-container" id="real">Réalisations</section>

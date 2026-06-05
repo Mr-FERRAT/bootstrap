@@ -11,3 +11,12 @@
     align-items: center;
     font-size: 3rem;
 }
+
+.top-content {
+    padding-top: 80px;
+}
+
+.img-card-top{
+    height: 15vh;
+    object-fit: contain;
+}

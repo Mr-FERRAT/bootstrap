@@ -83,3 +83,7 @@ Bootstrap l'essentiel du framework web le plus populaire
 11 Les avancés de Bootstrap
     11.01 NavBar
     11.02 Ajouter un dropdown dans une NavBar
+    11.03 Ajouter un formulaire dans une navbar 
+    11.04 Refermer les navbar avec JS
+    11.05 Nav-tab
+    11.06 Nav Pills
