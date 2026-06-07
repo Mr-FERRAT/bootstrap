@@ -149,22 +149,21 @@
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="modal-label">Titre</h4>
+                        <h4 class="modal-title" id="modal-label">Supprimer </h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                     </div>
                     <div class="modal-body">
-                        <ul>
-                            <li class="toScroll">Element 1</li>
-                            <li class="toScroll">Element 2</li>
-                            <li class="toScroll">Element 3</li>
-                            <li class="toScroll">Element 4</li>
-                            <li class="toScroll">Element 5</li>
-                            <li class="toScroll">Element 6</li>
-                            <li class="toScroll">Element 7</li>
-                            <li class="toScroll">Element 8</li>
-                        </ul>
+                        <!-- <p>Etes-vous sur de vouloir supprimer ?</p> -->
+                         <form action="" class="d-flex align-items-center ">
+                            <label for="name" class="form-label col-auto m-auto me-2">Nom :</label>
+                            <input type="text" name="Nom" id="name" class="form-control" placeholder="Entrez votre nom">
+                         </form>
                     </div>
-                    <div class="modal-footer">Footer de la modale</div>
+                    <div class="modal-footer justify-content-end">
+                        <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Annuler</button> -->
+                        <!-- <button type="button" class="btn btn-danger" >Supprimer</button> -->
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >Valider le formulaire</button>
+                    </div>
                 </div>
             </div>
         </div>
