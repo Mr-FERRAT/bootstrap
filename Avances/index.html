@@ -141,6 +141,38 @@
          </div>
          
     </section>
+
+    <section class="container md-5">
+        <h3>Les modales</h3>
+        <!-- Créer la modale -->
+        <div class="modal fade" id="modale" tabindex="-1" aria-labelledby="modal-label" aria-hidden="false">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="modal-label">Titre</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li class="toScroll">Element 1</li>
+                            <li class="toScroll">Element 2</li>
+                            <li class="toScroll">Element 3</li>
+                            <li class="toScroll">Element 4</li>
+                            <li class="toScroll">Element 5</li>
+                            <li class="toScroll">Element 6</li>
+                            <li class="toScroll">Element 7</li>
+                            <li class="toScroll">Element 8</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">Footer de la modale</div>
+                </div>
+            </div>
+        </div>
+        <!-- Montrer la modale -->
+         <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modale">Montrer la modale</button>
+         
+    </section>
+    
     <section class="container my-container" id="accueil">Accueil</section>
     <section class="container my-container" id="about">A propos</section>
     <section class="container my-container" id="real">Réalisations</section>
