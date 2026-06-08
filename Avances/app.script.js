@@ -10,4 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
         });
-    });
+
+    const pages = document.querySelectorAll('.page-item');
+    const div = document.getElementById('content');
+    pages.forEach(page => page.addEventListener('click', function(event){
+        event.preventDefault();
+        const number = page.getAttribute('data-page');
+        pages.forEach(index => index.classList.remove('active'));
+        page.classList.add('active');
+        div.innerHTML = `<p>contenu de la page ${number}</p>`;
+    }));
+        
+    })
