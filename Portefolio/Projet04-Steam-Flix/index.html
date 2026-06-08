@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
                     <li class="nav-item">
-                        <a href="#" class="nav-link active" aria-current="page" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Accueil</a>
+                        <a href="#carousel" class="nav-link active" aria-current="page" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="navbar-collapse.show">Films</a>
@@ -32,6 +32,40 @@
         </div>
      </nav>
     <!-- Carousel -->
+     <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assents/movies/terminator.jpg" alt="terminator" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block alert alert-warning text-dark col-md-6 col-lg-3 offset-md-1 offset-lg-3">
+                    <h5>Film à la une: Terminator</h5>
+                    <img src="assents/movies/terminator.jpg" alt="terminator" class="img-fluid">
+                    <p>Explorez notre sélection de films</p>
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#movieModal">
+                        Plus d'infos
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assents/series/fallout.jpg" alt="fallout" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block alert alert-danger text-dark col-md-6 col-lg-3 offset-md-1 offset-lg-3">
+                    <h5>Série à la une: Fallout</h5>
+                    <img src="assents/series/fallout.jpg" alt="fallout" class="img-fluid">
+                    <p>Explorez notre sélection de séries</p>
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#serieModal">
+                        Plus d'infos
+                    </button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+     </div>
     <!-- bouton offcanvas -->
     <!-- Films -->
     <!-- Séries -->
