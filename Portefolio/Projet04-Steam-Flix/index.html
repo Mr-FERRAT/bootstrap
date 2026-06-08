@@ -7,9 +7,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-bs-spy="sccroll" data-bs-target="#navbar" data-bs-offset="70">
 
     <!-- Nav -->
+     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Steam-flix</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="navbar-collapse.show">Films</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="navbar-collapse.show">Séries</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </nav>
     <!-- Carousel -->
     <!-- bouton offcanvas -->
     <!-- Films -->
