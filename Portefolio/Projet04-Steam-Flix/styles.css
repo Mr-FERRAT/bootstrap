@@ -11,3 +11,13 @@
     object-fit: contain;
     height: 25vh;
 }
+
+.tv-show{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tv-show:hover{
+    scale: 0.9;
+}
