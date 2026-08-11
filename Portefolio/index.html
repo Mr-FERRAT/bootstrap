@@ -15,44 +15,44 @@
 
 <body data-bs-spy="scroll" data-bs-target="mainNav" data-bs-offset="70">
     <!-- Navbar -->
-    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <img src="assets/codabee_logo_red.png" alt="logo" class="logo">
-            <a href="#" class="navbar-brand">Formation Bootstrap</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle">
-                <span class="navbar-toggler-icon"></span>
+    <nav id="mainNav">
+        <div>
+            <img src="assets/codabee_logo_red.png" alt="logo">
+            <a href="#">Formation Bootstrap</a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle">
+                <span></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active"><a href="#home" class="nav-link">Accueil</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">Bootstrap</a></li>
-                    <li class="nav-item"><a href="#formation" class="nav-link">Notre Formation</a></li>
-                    <li class="nav-item"><a href="#teacher" class="nav-link">Votre formateur</a></li>
+            <div id="navbarNav">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">Bootstrap</a></li>
+                    <li><a href="#formation">Notre Formation</a></li>
+                    <li><a href="#teacher">Votre formateur</a></li>
                     <!-- Dropdown pour desktop -->
-                    <li class="nav-item dropdown d-none d-lg-block">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a href="Port cros/index.html" target="_blank" class="dropdown-item">Port-Cros</a>
-                            <a href="FastFood/index.html" target="_blank"  class="dropdown-item">FastFood</a>
-                            <a href="Wanderlust/index.html" target="_blank" class="dropdown-item">Wanderlust</a>
-                            <a href="StreamFlix/index.html" target="_blank" class="dropdown-item">StreamFlix</a>
+                    <li>
+                        <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                        <div aria-labelledby="navbarDropdown">
+                            <a href="Port cros/index.html" target="_blank">Port-Cros</a>
+                            <a href="FastFood/index.html" target="_blank">FastFood</a>
+                            <a href="Wanderlust/index.html" target="_blank">Wanderlust</a>
+                            <a href="StreamFlix/index.html" target="_blank">StreamFlix</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                       <!-- Titre Portfolio pour mobile -->
-                      <li class="nav-item d-lg-none">
-                        <span class="nav-link disabled">Portfolio</span>
+                      <li>
+                        <span>Portfolio</span>
                     </li>
                     <!-- Séparateur pour mobile -->
-                    <li class="nav-item d-lg-none">
-                        <hr class="dropdown-divider">
+                    <li>
+                        <hr>
                     </li>
                     <!-- Éléments simples pour mobile -->
-                     <ul class="d-lg-none">
-                        <li class="nav-item"><a class="nav-link" href="Port cros/index.html" target="_blank">Port-Cros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="FastFood/index.html" target="_blank">FastFood</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Wanderlust/index.html" target="_blank">Wanderlust</a></li>
-                        <li class="nav-item"><a class="nav-link" href="StreamFlix/index.html" target="_blank">StreamFlix</a></li>
+                     <ul>
+                        <li><a href="Port cros/index.html" target="_blank">Port-Cros</a></li>
+                        <li><a href="FastFood/index.html" target="_blank">FastFood</a></li>
+                        <li><a href="Wanderlust/index.html" target="_blank">Wanderlust</a></li>
+                        <li><a href="StreamFlix/index.html" target="_blank">StreamFlix</a></li>
                      </ul>
                 </ul>
             </div>
@@ -60,53 +60,53 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero gradient-top">
-        <div class="col-md-6">
-            <img src="assets/Bootstrap_logo.png" alt="Logo Bootstrap" class="img-fluid col-md-2 m-5 col-sm-6 col-8">
+    <section id="home">
+        <div>
+            <img src="assets/Bootstrap_logo.png" alt="Logo Bootstrap">
             <span>
-                <h1>La formation Bootstrap by <img src="assets/codabee_logo_red.png" alt="logo Codabee" class="logo">Codabee</h1>
+                <h1>La formation Bootstrap by <img src="assets/codabee_logo_red.png" alt="logo Codabee">Codabee</h1>
             </span>
             <p><em>Vous souhaitez apprendre à maitriser Bootstrap et créer des sites uniques grâce au framework css le
                     plus populaire?</em></p>
             <p><strong>Vous êtes au bon endroit!</strong></p>
-            <a href="https://www.udemy.com/user/matthieu-passerel/?srsltid=AfmBOoox753rMyf8Bhqo1EvC3gb6jsjDXzemN3oCBaprBdpgqCzzUXcd" target="_blank" class="btn btn-light">Découvrir</a>
+            <a href="https://www.udemy.com/user/matthieu-passerel/?srsltid=AfmBOoox753rMyf8Bhqo1EvC3gb6jsjDXzemN3oCBaprBdpgqCzzUXcd" target="_blank">Découvrir</a>
         </div>
     </section>
 
     <!-- À propos -->
-    <section id="about" class="container-fluid py-5">
-        <div class="card rounded m-5 p-4 shadow-lg border-0">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="assets/Bootstrap_logo.png" alt="Image à propos" class="img-fluid rounded logo">
+    <section id="about">
+        <div>
+            <div>
+                <div>
+                    <img src="assets/Bootstrap_logo.png" alt="Image à propos">
                 </div>
-                <div class="col-md-8 text-center">
+                <div>
                     <h2>Pourquoi Bootstrap ?</h2>
                 </div>
-                <div class="col-md-2 text-end">
+                <div>
                     <!-- Modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutModal">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#aboutModal">
                         En savoir plus
                     </button>
-                    <div class="modal fade" id="aboutModal" tabindex="-1", aria-labelledby="aboutModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="aboutModalLabel">Plus d'infos</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div id="aboutModal" tabindex="-1", aria-labelledby="aboutModalLabel" aria-hidden="true">
+                        <div>
+                            <div>
+                                <div>
+                                    <h5 id="aboutModalLabel">Plus d'infos</h5>
+                                    <button type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div>
                                     Voici plus d'informations sur Bootstrap.
                                 </div>
-                                <div class="modal-footer">
-                                    <a href="https://getbootstrap.com/" target="_blank" class="btn btn-primary">Vers le site Bootstrap</a>
+                                <div>
+                                    <a href="https://getbootstrap.com/" target="_blank">Vers le site Bootstrap</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr>
-                <div class="text-center text-secondary">
+                <div>
                     <p>
                         Bootstrap est un framework front-end incontournable dans le développement web moderne, offrant
                         une multitude d'avantages qui en font un choix privilégié pour de nombreux développeurs. Tout
@@ -160,37 +160,37 @@
     </section>
 
     <!-- Contenu de la formation-->
-    <section id="formation" class="container-fluid gradient-bottom p-5">
-        <h1 class="mb-5">Contenu de la formation:</h1>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="intro-tab" data-bs-toggle="tab" data-bs-target="#intro" type="button" role="tab" aria-controls="intro" aria-selected="false">Introduction</button>
+    <section id="formation">
+        <h1>Contenu de la formation:</h1>
+        <ul id="myTab" role="tablist">
+            <li role="presentation">
+                <button id="intro-tab" data-bs-toggle="tab" data-bs-target="#intro" type="button" role="tab" aria-controls="intro" aria-selected="false">Introduction</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="intro" aria-selected="false">Le Principe de Grilles</button>
+            <li role="presentation">
+                <button id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="intro" aria-selected="false">Le Principe de Grilles</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="basics-tab" data-bs-toggle="tab" data-bs-target="#basics" type="button" role="tab" aria-controls="basics" aria-selected="false">Les basiques</button>
+            <li role="presentation">
+                <button id="basics-tab" data-bs-toggle="tab" data-bs-target="#basics" type="button" role="tab" aria-controls="basics" aria-selected="false">Les basiques</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="persocss-tab" data-bs-toggle="tab" data-bs-target="#persocss" type="button" role="tab" aria-controls="persocss" aria-selected="false">Personalisation du CSS</button>
+            <li role="presentation">
+                <button id="persocss-tab" data-bs-toggle="tab" data-bs-target="#persocss" type="button" role="tab" aria-controls="persocss" aria-selected="false">Personalisation du CSS</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="essentials-tab" data-bs-toggle="tab" data-bs-target="#essentials" type="button" role="tab" aria-controls="essentials" aria-selected="false">Les essentiels</button>
+            <li role="presentation">
+                <button id="essentials-tab" data-bs-toggle="tab" data-bs-target="#essentials" type="button" role="tab" aria-controls="essentials" aria-selected="false">Les essentiels</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">Les informatifs</button>
+            <li role="presentation">
+                <button id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">Les informatifs</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="advance-tab" data-bs-toggle="tab" data-bs-target="#advance" type="button" role="tab" aria-controls="advance" aria-selected="false">Les avancés</button>
+            <li role="presentation">
+                <button id="advance-tab" data-bs-toggle="tab" data-bs-target="#advance" type="button" role="tab" aria-controls="advance" aria-selected="false">Les avancés</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="loading-tab" data-bs-toggle="tab" data-bs-target="#loading" type="button" role="tab" aria-controls="loading" aria-selected="false">Les éléments de chargement</button>
+            <li role="presentation">
+                <button id="loading-tab" data-bs-toggle="tab" data-bs-target="#loading" type="button" role="tab" aria-controls="loading" aria-selected="false">Les éléments de chargement</button>
             </li>
 
         </ul>
-        <div class="tab-content card mt-5 col-md-6 offset-md-3 p-4" id="tabContent">
-            <div id="intro" role="tabpanel" aria-labelledby="intro-tab" class="tab-pane show active">
+        <div id="tabContent">
+            <div id="intro" role="tabpanel" aria-labelledby="intro-tab">
                 <ul>
                     <li>Présentation de la formation</li>
                     <li>Qu'est ce que Boootstrap ?</li>
@@ -199,7 +199,7 @@
                 </ul>
             
             </div>
-            <div id="grid" role="tabpanel" aria-labelledby="grid-tab" class="tab-pane">
+            <div id="grid" role="tabpanel" aria-labelledby="grid-tab">
                 <ul>
                     <li>Présentation du principe de Grilles</li>
                     <li>Les Breakpoints: Points de rupture</li>
@@ -209,7 +209,7 @@
                     <li>Les Goutières</li>
                 </ul>
             </div>
-            <div id="basics" role="tabpanel" aria-labelledby="basics-tab" class="tab-pane">
+            <div id="basics" role="tabpanel" aria-labelledby="basics-tab">
                 <ul>
                     <li>Les Couleurs</li>
                     <li>Les Textes</li>
@@ -221,21 +221,21 @@
                     <li>Images et Vidéos</li>
                 </ul>
             </div>
-            <div id="persocss" role="tabpanel" aria-labelledby="persocss-tab" class="tab-pane">
+            <div id="persocss" role="tabpanel" aria-labelledby="persocss-tab">
                 <ul>
                     <li>Surcharge de Bootstrap</li>
                     <li>Création de style personnalisé</li>
                     <li>Ajuster les composants de Bootstrap</li>
                 </ul>
             </div>
-            <div id="essentials" role="tabpanel" aria-labelledby="essentials-tab" class="tab-pane">
+            <div id="essentials" role="tabpanel" aria-labelledby="essentials-tab">
                 <ul>
                     <li>Les Boutons</li>
                     <li>Les Tableaux</li>
                     <li>Les Cards</li>
                 </ul>
             </div>
-            <div id="info" role="tabpanel" aria-labelledby="info-tab" class="tab-pane">
+            <div id="info" role="tabpanel" aria-labelledby="info-tab">
                 <ul>
                     <li>Les Badges</li>
                     <li>Les alertes</li>
@@ -244,7 +244,7 @@
                     <li>Toast</li>
                 </ul>
             </div>
-            <div id="advance" role="tabpanel" aria-labelledby="advance-tab" class="tab-pane">
+            <div id="advance" role="tabpanel" aria-labelledby="advance-tab">
                 <ul>
                     <li>Navbar</li>
                     <li>NaviPills et NavTab</li>
@@ -255,7 +255,7 @@
                     <li>Scrollspy</li>
                 </ul>
             </div>
-            <div id="loading" role="tabpanel" aria-labelledby="loading-tab" class="tab-pane">
+            <div id="loading" role="tabpanel" aria-labelledby="loading-tab">
                 <ul>
                     <li>Le Spinner</li>
                     <li>Le Progress</li>
@@ -266,67 +266,67 @@
     </section>
 
     <!-- Carousel -->
-<section class="container-fluid gradient-top p-4 text-white">
-    <div class="row">
+<section>
+    <div>
         <h1>Ce que vous allez réaliser dans cette formation:</h1>
-        <div id="carouselSlide" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="2500">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card border-0 shadow m-5">
-                        <div class="row m-3">
-                            <div class="col-md-4 d-flex flex-column align-items-center justify-content-around">
-                                <h2 class="text-center pb-5">Projet 1: Port-cros</h2>
+        <div id="carouselSlide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <h2>Projet 1: Port-cros</h2>
                                 <p>Dans ce projet, nous allons ensemble créer un site web qui reprendra les principaux concepts appris durant la première partie du cours.<br>Nous pourrons ainsi commencer à prendre en main:</p>
                                 <ul>
                                     <li>Le système de Grilles</li>
                                     <li>Les basiques de HTML et CSS revus par Bootstrap</li>
                                     <li>La personnalisation via un CSS personnalisé</li>
                                 </ul>
-                                <a href="Port cros/index.html" target="_blank" class="btn btn-secondary m-5">Voir le projet</a>
+                                <a href="Port cros/index.html" target="_blank">Voir le projet</a>
                             </div>
-                            <img src="assets/port-cros.png"alt="Image 1" class="col-md-8 img-carousel">
+                            <img src="assets/port-cros.png"alt="Image 1">
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card border-0 shadow m-5">
-                        <div class="row m-3">
-                            <div class="col-md-4 d-flex flex-column align-items-center justify-content-around">
-                                <h2 class="text-center pb-5">Projet 2: Fastfood</h2>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <h2>Projet 2: Fastfood</h2>
                                 <p>Faim d'apprendre?<br>Voici le projet parfait pour digérer la théorie de:</p>
                                 <ul>
                                     <li>Cartes</li>
                                     <li>Tableaux</li>
                                     <li>Boutons</li>
                                 </ul>
-                                <a href="FastFood/index.html" target="_blank" class="btn btn-secondary m-5">Voir le projet</a>
+                                <a href="FastFood/index.html" target="_blank">Voir le projet</a>
                             </div>
-                            <img src="assets/fastfood.png" alt="Image 2"  class="col-md-8 img-carousel">
+                            <img src="assets/fastfood.png" alt="Image 2">
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card border-0 shadow m-5">
-                        <div class="row m-3">
-                            <div class="col-md-4 d-flex flex-column align-items-center justify-content-around">
-                                <h2 class="text-center pb-5">Projet 3: Wanderlust</h2>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <h2>Projet 3: Wanderlust</h2>
                                 <p>Evasion quand tu nous tiens<br>Depuis notre clavier nous allons voyager avec :</p>
                                 <ul>
                                     <li>Badges</li>
                                     <li>Alertes</li>
                                     <li>Popovers et Tooltips...</li>
                                 </ul>
-                                <a href="Wanderlust/index.html" target="_blank" class="btn btn-secondary m-5">Voir le projet</a>
+                                <a href="Wanderlust/index.html" target="_blank">Voir le projet</a>
                             </div>
-                            <img src="assets/wanderlust.png" alt="Image 2"  class="col-md-8 img-carousel">
+                            <img src="assets/wanderlust.png" alt="Image 2">
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card border-0 shadow m-5">
-                        <div class="row m-3">
-                            <div class="col-md-4 d-flex flex-column align-items-center justify-content-around">
-                                <h2 class="text-center pb-5">Projet 4: StreamFlix</h2>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <h2>Projet 4: StreamFlix</h2>
                                 <p>Ce projet commence à intégrer beaucoup d'éléments Bootstrap.<br>Nous pourrons ainsi ajouter:</p>
                                 <ul>
                                     <li>La navigation</li>
@@ -334,48 +334,48 @@
                                     <li>Les modales</li>
                                     <li>Et bien d'autres choses...</li>
                                 </ul>
-                                <a href="StreamFlix/index.html" target="_blank" class="btn btn-secondary m-5">Voir le projet</a>
+                                <a href="StreamFlix/index.html" target="_blank">Voir le projet</a>
                             </div>
-                            <img src="assets/streamflix.png" alt="Image 4"  class="col-md-8 img-carousel">
+                            <img src="assets/streamflix.png" alt="Image 4">
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card border-0 shadow m-5">
-                        <div class="row m-3">
-                            <div class="col-md-4 d-flex flex-column align-items-center justify-content-around">
-                                <h2 class="text-center pb-5" >Projet 5: Le site actuel</h2>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <h2 >Projet 5: Le site actuel</h2>
                                 <h3>Le projet Final!</h3>
                                 <p>Il sera temps d'assembler toutes les connaissances acquises pour créer ce site.</p>
                                 <p>Etes-vous prêts?</p>
                             </div>
-                            <img src="assets/bs.png" alt="Image 5"  class="col-md-8 img-carousel">
+                            <img src="assets/bs.png" alt="Image 5">
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Contrôles -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="visually-hidden">Previous</span>
+            <button type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
+                <span></span>
+                <span>Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                <span class="visually-hidden">Next</span>
+            <button type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+                <span></span>
+                <span>Next</span>
             </button>
         </div>
     </div>
 </section>
 
 <!-- A propos de moi -->
-     <section id="teacher" class="container">
-        <h1 class="my-5">Qui suis-je?</h1>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="assets/my-profile-pic.jpg" alt="moi" class="img-fluid rounded-circle">
-                <a href="https//www.codabee.com" target="_blank" class="btn btn-primary m-3">Vers Codabee.com</a>
+     <section id="teacher">
+        <h1>Qui suis-je?</h1>
+        <div>
+            <div>
+                <img src="assets/my-profile-pic.jpg" alt="moi">
+                <a href="https//www.codabee.com" target="_blank">Vers Codabee.com</a>
             </div>
-            <div class="col-md-9">
+            <div>
                 <h2>Oups ! J'ai oublié de me présenter.</h2>
                 <p>
                     Bonjour à tous, je suis <strong>Matthieu Passerel</strong>, formateur passionné et développeur d'applications mobiles. Mon parcours m'a conduit à explorer à la fois le <em>développement personnel</em> et le <em>développement d'applications</em>, deux domaines qui me tiennent particulièrement à cœur.
@@ -398,22 +398,22 @@
 
 
     <!-- Contact -->
-    <section id="contact" class="container-fluid py-5 mt-5 gradient-bottom">
-        <div class="container text-center col-lg-6 col-md-8 p-2">
+    <section id="contact">
+        <div>
             <h2>Contactez-moi</h2>
             <p>Pour toute question, remplissez le formulaire :</p>
             <form id="contactForm">
-                <div class="row g-2">
-                    <div class="form-group">
-                        <input type="text" id="name" class="form-control" placeholder="Votre nom" required>
+                <div>
+                    <div>
+                        <input type="text" id="name" placeholder="Votre nom" required>
                     </div>
-                    <div class="form-group">
-                        <input type="email" id="email" class="form-control" placeholder="Votre adresse mail" required>
+                    <div>
+                        <input type="email" id="email" placeholder="Votre adresse mail" required>
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="message" rows="5" placeholder="Votre message" required></textarea>
+                    <div>
+                        <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                    <button type="submit">Envoyer</button>
                 </div>
 
             </form>
@@ -421,7 +421,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer>
         <p>&copy; 2025 Codabee.com | Tous droits réservés.</p>
     </footer>
 
