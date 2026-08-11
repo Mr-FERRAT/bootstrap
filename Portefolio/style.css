@@ -1,38 +1,9 @@
-body {
-    font-family: 'Poppins', sans-serif;
+body{
+    font-family: "Poppins", sans-serif;
 }
-
-.logo {
+.logo{
     height: 54px;
     width: 54px;
     object-fit: contain;
     margin: 0 12px;
-}
-
-.hero {
-    min-height: 100vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 80px;
-    box-sizing: border-box;
-}
-
-.gradient-top {
-    background: linear-gradient(0deg, #FFFFFF, #8511fb);
-}
-
-.gradient-bottom {
-    background: linear-gradient(180deg, #FFFFFF, #8511fb);
-}
-
-.btn-primary {
-    background-color: #8511fb;
-    border: none;
-}
-
-.img-carousel {
-    height: 66vh;
-    object-fit: contain;
 }
