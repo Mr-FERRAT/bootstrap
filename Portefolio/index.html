@@ -25,8 +25,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link">Accueil</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Bootstrap</a></li>
+                    <li class="nav-item active"><a href="#home" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Bootstrap</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Notre Formation</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Votre formateur</a></li>
                     <!-- Dropdown pour desktop -->
@@ -50,10 +50,10 @@
                     </li>
                     <!-- Éléments simples pour mobile -->
                      <ul class="d-lg-none">
-                        <li class="nav-item"><a class="nav-link" href="" target="_blank">Port-Cros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="" target="_blank">FastFood</a></li>
-                        <li class="nav-item"><a class="nav-link" href="" target="_blank">Wanderlust</a></li>
-                        <li class="nav-item"><a class="nav-link" href="" target="_blank">StreamFlix</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Projet01-Akfadou/index.html" target="_blank">Port-Cros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Projet02-Fastfood/index.html" target="_blank">FastFood</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Projet03-Wanderlust/index.html" target="_blank">Wanderlust</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Projet04-Stream-Flix/index.html" target="_blank">StreamFlix</a></li>
                      </ul>
                 </ul>
             </div>
@@ -61,53 +61,53 @@
     </nav>
 
     <!-- Hero Section -->
-    <section>
-        <div>
-            <img src="" alt="Logo Bootstrap">
+    <section id="home" class="hero gradient-top">
+        <div class="col-md-6">
+            <img src="assets/Bootstrap_logo.png" alt="Logo Bootstrap" class="img-fluid col-md-2 m-5 col-sm-6 col-8">
             <span>
-                <h1>La formation Bootstrap by <img src="" alt="logo Bootstrap">Codabee</h1>
+                <h1>La formation Bootstrap <img src="assets/logo_red.png" alt="logo Bootstrap" class="logo"> by FERRAT Mawloud</h1>
             </span>
             <p><em>Vous souhaitez apprendre à maitriser Bootstrap et créer des sites uniques grâce au framework css le
                     plus populaire?</em></p>
             <p><strong>Vous êtes au bon endroit!</strong></p>
-            <a href="https://www.udemy.com/user/matthieu-passerel/?srsltid=AfmBOoox753rMyf8Bhqo1EvC3gb6jsjDXzemN3oCBaprBdpgqCzzUXcd" target="_blank">Découvrir</a>
+            <a href="https://www.udemy.com/user/matthieu-passerel/?srsltid=AfmBOoox753rMyf8Bhqo1EvC3gb6jsjDXzemN3oCBaprBdpgqCzzUXcd" target="_blank" class="btn btn-light">Découvrir</a>
         </div>
     </section>
 
     <!-- À propos -->
-    <section >
-        <div >
-            <div >
-                <div >
-                    <img src=""  alt="Image à propos">
+    <section id="about" class="container-fluid py-5">
+        <div class="card rounded m-5 p-4 shadow-lg border-0">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="assets/Bootstrap_logo.png"  alt="Image à propos" class="img-fluid rounded logo">
                 </div>
-                <div>
+                <div class="col-md-8 text-center">
                     <h2>Pourquoi Bootstrap ?</h2>
                 </div>
-                <div>
+                <div class="col-md-2 text-end">
                     <!-- Modal -->
-                    <button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutModal">
                         En savoir plus
                     </button>
-                    <div>
-                        <div>
-                            <div>
-                                <div>
-                                    <h5>Plus d'infos</h5>
-                                    <button></button>
+                    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModallabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="aboutModallabel">Plus d'infos</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                                 </div>
-                                <div>
+                                <div class="modal-body">
                                     Voici plus d'informations sur Bootstrap.
                                 </div>
-                                <div>
-                                    <a href="https://getbootstrap.com/" target="_blank">Vers le site Bootstrap</a>
+                                <div class="modal-footer">
+                                    <a href="https://getbootstrap.com/" target="_blank" class="btn btn-primary">Vers le site Bootstrap</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr>
-                <div>
+                <div class="text-center text-secondary">
                     <p>
                         Bootstrap est un framework front-end incontournable dans le développement web moderne, offrant
                         une multitude d'avantages qui en font un choix privilégié pour de nombreux développeurs. Tout
