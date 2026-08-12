@@ -27,7 +27,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active"><a href="#home" class="nav-link">Accueil</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">Bootstrap</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Notre Formation</a></li>
+                    <li class="nav-item"><a href="#formation" class="nav-link">Notre Formation</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Votre formateur</a></li>
                     <!-- Dropdown pour desktop -->
                     <li class="nav-item dropdown d-none d-lg-block">
@@ -70,7 +70,7 @@
             <p><em>Vous souhaitez apprendre à maitriser Bootstrap et créer des sites uniques grâce au framework css le
                     plus populaire?</em></p>
             <p><strong>Vous êtes au bon endroit!</strong></p>
-            <a href="https://www.udemy.com/user/matthieu-passerel/?srsltid=AfmBOoox753rMyf8Bhqo1EvC3gb6jsjDXzemN3oCBaprBdpgqCzzUXcd" target="_blank" class="btn btn-light">Découvrir</a>
+            <a href="https://github.com/Mr-FERRAT" target="_blank" class="btn btn-light">Découvrir</a>
         </div>
     </section>
 
@@ -161,37 +161,37 @@
     </section>
 
     <!-- Contenu de la formation-->
-    <section>
-        <h1>Contenu de la formation:</h1>
-        <ul>
-            <li>
-                <button>Introduction</button>
+    <section id="formation" class="container-fluid gradient-bottom p-5">
+        <h1 class="mb-5">Contenu de la formation:</h1>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="intro-tab" data-bs-toggle="tab" data-bs-target="#intro" type="button" role="tab" aria-controls="intro" aria-selected="true">Introduction</button>
             </li>
-            <li>
-                <button>Le Principe de Grilles</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="grid" aria-selected="false">Le Principe de Grilles</button>
             </li>
-            <li>
-                <button>Les basiques</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="basics-tab" data-bs-toggle="tab" data-bs-target="#basics" type="button" role="tab" aria-controls="basics" aria-selected="false">Les basiques</button>
             </li>
-            <li>
-                <button>Personalisation du CSS</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="persocss-tab" data-bs-toggle="tab" data-bs-target="#persocss" type="button" role="tab" aria-controls="persocss" aria-selected="false">Personalisation du CSS</button>
             </li>
-            <li>
-                <button>Les essentiels</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="essentials-tab" data-bs-toggle="tab" data-bs-target="#essentials" type="button" role="tab" aria-controls="essentials" aria-selected="false">Les essentiels</button>
             </li>
-            <li>
-                <button>Les informatifs</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">Les informatifs</button>
             </li>
-            <li>
-                <button>Les avancés</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="advance-tab" data-bs-toggle="tab" data-bs-target="#advance" type="button" role="tab" aria-controls="advance" aria-selected="false">Les avancés</button>
             </li>
-            <li>
-                <button>Les éléments de chargement</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="loading-tab" data-bs-toggle="tab" data-bs-target="#loading" type="button" role="tab" aria-controls="loading" aria-selected="false">Les éléments de chargement</button>
             </li>
 
         </ul>
-        <div>
-            <div>
+        <div class="tab-content card mt-5 col-md-6 offset-md-3 p-4" id="tabContent">
+            <div id="intro" role="tabpanel" aria-labelledby="intro-tab" class="tab-pane show active">
                 <ul>
                     <li>Présentation de la formation</li>
                     <li>Qu'est ce que Boootstrap ?</li>
@@ -200,7 +200,7 @@
                 </ul>
             
             </div>
-            <div>
+            <div id="grid" role="tabpanel" aria-labelledby="grid-tab" class="tab-pane">
                 <ul>
                     <li>Présentation du principe de Grilles</li>
                     <li>Les Breakpoints: Points de rupture</li>
@@ -210,7 +210,7 @@
                     <li>Les Goutières</li>
                 </ul>
             </div>
-            <div>
+            <div id="basics" role="tabpanel" aria-labelledby="basics-tab" class="tab-pane">
                 <ul>
                     <li>Les Couleurs</li>
                     <li>Les Textes</li>
@@ -222,21 +222,21 @@
                     <li>Images et Vidéos</li>
                 </ul>
             </div>
-            <div>
+            <div id="persocss" role="tabpanel" aria-labelledby="persocss-tab" class="tab-pane">
                 <ul>
                     <li>Surcharge de Bootstrap</li>
                     <li>Création de style personnalisé</li>
                     <li>Ajuster les composants de Bootstrap</li>
                 </ul>
             </div>
-            <div>
+            <div id="essentials" role="tabpanel" aria-labelledby="essentials-tab" class="tab-pane">
                 <ul>
                     <li>Les Boutons</li>
                     <li>Les Tableaux</li>
                     <li>Les Cards</li>
                 </ul>
             </div>
-            <div>
+            <div id="info" role="tabpanel" aria-labelledby="info-tab" class="tab-pane">
                 <ul>
                     <li>Les Badges</li>
                     <li>Les alertes</li>
@@ -245,7 +245,7 @@
                     <li>Toast</li>
                 </ul>
             </div>
-            <div>
+            <div id="advance" role="tabpanel" aria-labelledby="advance-tab" class="tab-pane">
                 <ul>
                     <li>Navbar</li>
                     <li>NaviPills et NavTab</li>
@@ -256,7 +256,7 @@
                     <li>Scrollspy</li>
                 </ul>
             </div>
-            <div>
+            <div id="loading" role="tabpanel" aria-labelledby="loading-tab" class="tab-pane">
                 <ul>
                     <li>Le Spinner</li>
                     <li>Le Progress</li>

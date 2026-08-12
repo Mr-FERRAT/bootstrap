@@ -22,6 +22,10 @@ body{
     background: linear-gradient(0deg, #FFFFFF,#8511fb);
 }
 
+.gradient-bottom{
+    background: linear-gradient(180deg, #FFFFFF, #8511fb);
+}
+
 .btn-primary {
     background-color: #8511fb;
     border: none;
