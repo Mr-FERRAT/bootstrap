@@ -30,3 +30,8 @@ body{
     background-color: #8511fb;
     border: none;
 }
+
+.img-carousel{
+    height: 66vh;
+    object-fit: contain;
+}
