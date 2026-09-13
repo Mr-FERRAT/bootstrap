@@ -11,7 +11,22 @@ function sendMail (event) {
     window.location.href = mailToLink;
 }
 
+function closeMenu (event){
+    const collapse = document.querySelector('.navbar-collapse');
+    if(collapse.classList.contains('show')){
+        new bootstrap.Collapse(collapse).hide();
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function (){
+    // envoi de mail
     const form = document.getElementById('constactForm');
-    form.addEventListener('submit', sendMail);
+    if(form){
+        form.addEventListener('submit', sendMail);
+        }
+    // Fermer le menu
+    const navList = document.querySelectorAll('.navbar-nav a');
+    navList.forEach(nav => {
+        nav.addEventListener('click', closeMenu);
+    })
 })
